@@ -6,31 +6,35 @@ This repository contains a collection of C++ projects that I developed during my
 ## Project Categories
 
 ### Games & Interactive Applications
-- **XOXO.cpp** - A console-based Tic-tac-toe game implementation
-- **guessthenumber.cpp** - Number guessing game where the user tries to guess a randomly generated number
-- **rollingdice.cpp** - Simulation of rolling dice with random number generation
+- **game_tic_tac_toe.cpp** - A console-based Tic-tac-toe game implementation
+- **game_number_guess.cpp** - Number guessing game where the user tries to guess a randomly generated number
+- **game_dice_roll.cpp** - Simulation of rolling dice with random number generation
 
 ### Mathematical Operations
-- **10x10_multiplication.cpp** - Generates a 10x10 multiplication table
-- **10x10_if_way.cpp** - Alternative approach to creating a multiplication table using if statements
-- **area&peri.cpp** - Calculates area and perimeter of different geometric shapes
-- **multiplication_task.cpp** - Various multiplication operations and exercises
+- **multiplication_table_loop.cpp** - Generates a 10x10 multiplication table
+- **multiplication_table_if.cpp** - Alternative approach to creating a multiplication table using if statements
+- **geometry_calculator.cpp** - Calculates area and perimeter of different geometric shapes
+- **arithmetic_operations.cpp** - Various multiplication operations and exercises
 
 ### Control Structures & Patterns
-- **diamond.cpp** - Prints a diamond pattern using loops and control structures
-- **switch_task.cpp** - Demonstrates the use of switch statements for different scenarios
-- **laboratory.cpp** - Various lab exercises covering control flow concepts
+- **pattern_diamond.cpp** - Prints a diamond pattern using loops and control structures
+- **control_structures.cpp** - Demonstrates the use of switch statements for different scenarios
+- **lab_exercises.cpp** - Various lab exercises covering control flow concepts
 
 ### Time & Clock Applications
-- **clock_task.cpp** - Implementation of a digital clock with various functionalities
+- **digital_clock.cpp** - Implementation of a digital clock with various functionalities
 
 ### File Operations
-- **files_task.cpp** - Demonstrates reading from and writing to files in C++
+- **file_operations.cpp** - Demonstrates reading from and writing to files in C++
 - **UsersScores.txt**, **2D_data.txt**, **rand.txt**, **resultfile.txt** - Various data files used by the programs
 
 ### Exam Tasks & Assignments
-- **examTASK1.cpp**, **examTASK2.cpp**, **ExamTask2x.cpp** - Solutions to exam problems
-- **gbemi.cpp**, **examgbemi.cpp** - Assignment solutions
+- **exam_task_basics.cpp**, **exam_task_arrays.cpp**, **exam_task_advanced.cpp** - Solutions to exam problems
+
+### Basic Programs
+- **basic_program_1.cpp**, **basic_program_2.cpp**, **basic_program_3.cpp**, **basic_program_4.cpp**, **basic_program_5.cpp** - Simple programs demonstrating fundamental concepts
+- **basic_test.cpp** - Testing basic programming constructs
+- **reference_examples.cpp** - Examples of reference code for learning purposes
 
 ## Concepts Covered
 - Basic C++ syntax and semantics
@@ -64,8 +68,8 @@ To run the compiled program:
 For example:
 
 ```bash
-g++ XOXO.cpp -o XOXO
-./XOXO
+g++ game_tic_tac_toe.cpp -o game_tic_tac_toe
+./game_tic_tac_toe
 ```
 
 ## Educational Note
